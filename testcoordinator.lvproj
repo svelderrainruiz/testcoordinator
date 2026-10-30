@@ -17,10 +17,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Documentation" Type="Folder">
 			<Item Name="Readme.txt" Type="Document" URL="../Documentation/Readme.txt"/>
-			<Item Name="testSample.vi" Type="VI" URL="../../modules/coordinator/src/Libraries/UserEventRecorder/testSample.vi"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
-			<Item Name="Test testCoordinator API.vi" Type="VI" URL="../Libraries/testCoordinator/Test testCoordinator API.vi"/>
 			<Item Name="Test My Cloneable Module API.vi" Type="VI" URL="../Libraries/My Cloneable Module/Test My Cloneable Module API.vi"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
@@ -28,38 +26,6 @@
 			<Item Name="My Cloneable Module.lvlib" Type="Library" URL="../Libraries/My Cloneable Module/My Cloneable Module.lvlib"/>
 		</Item>
 		<Item Name="Application.lvlib" Type="Library" URL="../Libraries/Application/Application.lvlib"/>
-		<Item Name="isProcedureCompatible.vi" Type="VI" URL="../../modules/coordinator/src/Libraries/UserEventRecorder/isProcedureCompatible.vi"/>
-		<Item Name="Test Procedure.ctl" Type="VI" URL="../Libraries/testCoordinator/Test Procedure.ctl"/>
-		<Item Name="Test Launcher API.vi" Type="VI" URL="../../modules/coordinator/src/Libraries/Launcher/Test Launcher API.vi"/>
-		<Item Name="Core.lvlib" Type="Library" URL="../../modules/coordinator/src/Libraries/Core/Core.lvlib"/>
-		<Item Name="Replay.lvlib" Type="Library" URL="../../replay/Replay/src/Libraries/Replay/Replay.lvlib"/>
-		<Item Name="KeyboardAndMouseDataAcquisition.ctl" Type="VI" URL="../../modules/coordinator/src/Libraries/UserEventRecorder/KeyboardAndMouseDataAcquisition.ctl"/>
-		<Item Name="Launcher.lvlib" Type="Library" URL="../../modules/coordinator/src/Libraries/Launcher/Launcher.lvlib"/>
-		<Item Name="Mode.ctl" Type="VI" URL="../../modules/coordinator/src/Libraries/Launcher/Mode.ctl"/>
-		<Item Name="ReplayMode.ctl" Type="VI" URL="../../modules/ReplayMode.ctl"/>
-		<Item Name="RecordMode.ctl" Type="VI" URL="../../modules/RecordMode.ctl"/>
-		<Item Name="Capture detection loop data--cluster.ctl" Type="VI" URL="../../modules/coordinator/src/Libraries/Launcher/Capture detection loop data--cluster.ctl"/>
-		<Item Name="UserEventRecorder.lvlib" Type="Library" URL="../../modules/coordinator/src/Libraries/UserEventRecorder/UserEventRecorder.lvlib"/>
-		<Item Name="TestEvent.ctl" Type="VI" URL="../../modules/coordinator/src/Libraries/UserEventRecorder/TestEvent.ctl"/>
-		<Item Name="KeyType.ctl" Type="VI" URL="../../modules/coordinator/src/Libraries/UserEventRecorder/KeyType.ctl"/>
-		<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-		<Item Name="LV Config Read.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read.vi"/>
-		<Item Name="LV Config Read Boolean.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Boolean.vi"/>
-		<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-		<Item Name="LV Config Read Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Pathlist.vi"/>
-		<Item Name="LV Config Read Color.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Color.vi"/>
-		<Item Name="LV Config Read Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Numeric (I32).vi"/>
-		<Item Name="MouseLUTSelector.ctl" Type="VI" URL="../../modules/coordinator/src/Libraries/MouseLUTSelector.ctl"/>
-		<Item Name="KeyboardSerializer.vi" Type="VI" URL="../../modules/coordinator/src/Libraries/UserEventRecorder/KeyboardSerializer.vi"/>
-		<Item Name="SerializedKeyPress.ctl" Type="VI" URL="../../modules/coordinator/src/Libraries/UserEventRecorder/SerializedKeyPress.ctl"/>
-		<Item Name="KeyboardLUTSelector.ctl" Type="VI" URL="../../modules/coordinator/src/Libraries/KeyboardLUTSelector.ctl"/>
-		<Item Name="KeyPressLUT.vi" Type="VI" URL="../../modules/coordinator/src/Libraries/UserEventRecorder/KeyPressLUT.vi"/>
-		<Item Name="KeyToVirtualKey.vi" Type="VI" URL="../../modules/coordinator/src/Libraries/KeyToVirtualKey.vi"/>
-		<Item Name="KeyboardReplayKey.ctl" Type="VI" URL="../../replay/KeyboardReplayKey.ctl"/>
-		<Item Name="MouseLUT.vi" Type="VI" URL="../../modules/coordinator/src/Libraries/UserEventRecorder/MouseLUT.vi"/>
-		<Item Name="LUTVirtualKeySelector.ctl" Type="VI" URL="../../modules/coordinator/src/Libraries/LUTVirtualKeySelector.ctl"/>
-		<Item Name="User Events Metadata.ctl" Type="VI" URL="../../replay/Replay/src/Libraries/User Events Metadata.ctl"/>
-		<Item Name="KeybdEventSerializerLUT.vi" Type="VI" URL="../../modules/coordinator/src/Libraries/KeybdEventSerializerLUT.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TestCoordinatorx64" Type="EXE">
@@ -82,7 +48,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{A3D48F6E-64BC-45A6-ADEB-64083211F11E}</Property>
 				<Property Name="Bld_sbomFile" Type="Path">/C/ProgramData/LabVIEW Benchmark Actor Plugins/testcoordinator/x64/testcoordinator_TestCoordinatorx64.cdx.sbom.json</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/ProgramData/LabVIEW Benchmark Actor Plugins/testcoordinator/x64/testcoordinator_TestCoordinatorx64_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TestCoordinator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/ProgramData/LabVIEW Benchmark Actor Plugins/NI_AB_PROJECTNAME/x64/TestCoordinator.exe</Property>
@@ -99,44 +65,44 @@
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Application.lvlib/Main.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Mode.ctl</Property>
+				<Property Name="Source[10].itemID" Type="Ref"></Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/ReplayMode.ctl</Property>
+				<Property Name="Source[11].itemID" Type="Ref"></Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/RecordMode.ctl</Property>
+				<Property Name="Source[12].itemID" Type="Ref"></Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Capture detection loop data--cluster.ctl</Property>
+				<Property Name="Source[13].itemID" Type="Ref"></Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/UserEventRecorder.lvlib</Property>
+				<Property Name="Source[14].itemID" Type="Ref"></Property>
 				<Property Name="Source[14].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].type" Type="Str">Library</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/TestEvent.ctl</Property>
+				<Property Name="Source[15].itemID" Type="Ref"></Property>
 				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/KeyType.ctl</Property>
+				<Property Name="Source[16].itemID" Type="Ref"></Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[16].type" Type="Str">VI</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/LV Config Read.vi</Property>
+				<Property Name="Source[17].itemID" Type="Ref"></Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[17].type" Type="Str">VI</Property>
 				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/LV Config Read Boolean.vi</Property>
+				<Property Name="Source[18].itemID" Type="Ref"></Property>
 				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/LV Config Read String.vi</Property>
+				<Property Name="Source[19].itemID" Type="Ref"></Property>
 				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -145,63 +111,63 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/LV Config Read Pathlist.vi</Property>
+				<Property Name="Source[20].itemID" Type="Ref"></Property>
 				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/LV Config Read Color.vi</Property>
+				<Property Name="Source[21].itemID" Type="Ref"></Property>
 				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/LV Config Read Numeric (I32).vi</Property>
+				<Property Name="Source[22].itemID" Type="Ref"></Property>
 				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[22].type" Type="Str">VI</Property>
 				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/MouseLUTSelector.ctl</Property>
+				<Property Name="Source[23].itemID" Type="Ref"></Property>
 				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[23].type" Type="Str">VI</Property>
 				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/KeyboardSerializer.vi</Property>
+				<Property Name="Source[24].itemID" Type="Ref"></Property>
 				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[24].type" Type="Str">VI</Property>
 				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/My Computer/SerializedKeyPress.ctl</Property>
+				<Property Name="Source[25].itemID" Type="Ref"></Property>
 				<Property Name="Source[25].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[25].type" Type="Str">VI</Property>
 				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/My Computer/KeyboardLUTSelector.ctl</Property>
+				<Property Name="Source[26].itemID" Type="Ref"></Property>
 				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[26].type" Type="Str">VI</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/KeyPressLUT.vi</Property>
+				<Property Name="Source[27].itemID" Type="Ref"></Property>
 				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[27].type" Type="Str">VI</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/KeyToVirtualKey.vi</Property>
+				<Property Name="Source[28].itemID" Type="Ref"></Property>
 				<Property Name="Source[28].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[28].type" Type="Str">VI</Property>
 				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[29].itemID" Type="Ref">/My Computer/KeyboardReplayKey.ctl</Property>
+				<Property Name="Source[29].itemID" Type="Ref"></Property>
 				<Property Name="Source[29].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[29].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/isProcedureCompatible.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[30].itemID" Type="Ref">/My Computer/MouseLUT.vi</Property>
+				<Property Name="Source[30].itemID" Type="Ref"></Property>
 				<Property Name="Source[30].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[30].type" Type="Str">VI</Property>
 				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[31].itemID" Type="Ref">/My Computer/LUTVirtualKeySelector.ctl</Property>
+				<Property Name="Source[31].itemID" Type="Ref"></Property>
 				<Property Name="Source[31].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[31].type" Type="Str">VI</Property>
 				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[32].itemID" Type="Ref">/My Computer/User Events Metadata.ctl</Property>
+				<Property Name="Source[32].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/User Events Metadata.ctl</Property>
 				<Property Name="Source[32].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[32].type" Type="Str">VI</Property>
 				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[33].itemID" Type="Ref">/My Computer/KeybdEventSerializerLUT.vi</Property>
+				<Property Name="Source[33].itemID" Type="Ref"></Property>
 				<Property Name="Source[33].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[33].type" Type="Str">VI</Property>
 				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
@@ -240,7 +206,7 @@
 				<Property Name="Source[39].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[39].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Test Procedure.ctl</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[40].destinationIndex" Type="Int">0</Property>
@@ -295,7 +261,7 @@
 				<Property Name="Source[49].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[49].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Test Launcher API.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[50].Container.applyInclusion" Type="Bool">true</Property>
@@ -309,11 +275,11 @@
 				<Property Name="Source[51].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[51].type" Type="Str">VI</Property>
 				<Property Name="Source[52].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[52].itemID" Type="Ref">/My Computer/Testers/Test testCoordinator API.vi</Property>
+				<Property Name="Source[52].itemID" Type="Ref">/My Computer/Modules/testCoordinator.lvlib/Test testCoordinator API.vi</Property>
 				<Property Name="Source[52].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[52].type" Type="Str">VI</Property>
 				<Property Name="Source[53].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[53].itemID" Type="Ref">/My Computer/Documentation/testSample.vi</Property>
+				<Property Name="Source[53].itemID" Type="Ref"></Property>
 				<Property Name="Source[53].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[53].type" Type="Str">VI</Property>
 				<Property Name="Source[54].destinationIndex" Type="Int">0</Property>
@@ -321,21 +287,21 @@
 				<Property Name="Source[54].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[54].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Core.lvlib</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Library</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Replay.lvlib</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Dependencies/Replay.lvlib</Property>
 				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Library</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/KeyboardAndMouseDataAcquisition.ctl</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Launcher.lvlib</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Library</Property>

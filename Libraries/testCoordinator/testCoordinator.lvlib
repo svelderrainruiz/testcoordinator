@@ -139,5 +139,6 @@
 	</Item>
 	<Item Name="Process Test Procedure.vi" Type="VI" URL="../Process Test Procedure.vi"/>
 	<Item Name="Load Section and Instruction.vi" Type="VI" URL="../Load Section and Instruction.vi"/>
+	<Item Name="Test testCoordinator API.vi" Type="VI" URL="../Test testCoordinator API.vi"/>
 	<Item Name="StoreTestEventsOnRunIDFolder.vi" Type="VI" URL="../StoreTestEventsOnRunIDFolder.vi"/>
 </Library>
